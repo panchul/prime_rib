@@ -32,12 +32,15 @@ There are several simple considerations we can take into account and have
 So, this brute force algorithm is pretty straight-forward. To find if
  N is a prime number:
  
-`	Loop: Iterate from 2 to sqrt(N) :
-	  Step 1: Take next prime number :
-	  Step 2: Check if it divides N. :
-	  Step 3: If it does not divides N, save it :
-	Repeat :
-`
+
+```
+	Loop: Iterate from 2 to sqrt(N) :  
+	  Step 1: Take next prime number :  
+	  Step 2: Check if it divides N. :  
+	  Step 3: If it does not divides N, save it :  
+	Repeat :  
+```
+
 
 ## Small numbers Eratosthenes Sieve approach
 
