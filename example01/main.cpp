@@ -51,7 +51,7 @@ void doPrimes(pn_type limit = PN_BUFFER_PREALLOCATED_SIZE) {
 }
 
 void doPrintPrimes() {    
-    auto i = 0;    
+    int i = 0;    
     while(i < pnBufferLength) {
         cout // << i << ":" 
             << pnBuffer[i] << " ";
